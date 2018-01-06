@@ -1,0 +1,29 @@
+
+.marker {
+  height: 11px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 7px;
+}
+
+.normal {
+    border: 1px solid red;
+    background: black;
+    color: white;
+}
+
+.clicked {
+    border: 1px solid green;
+    background: yellow;
+    color: black;
+}
+
+.fadeAble {
+    animation: fadeIn 2s ease forwards;
+}
+
+
+@keyframes fadeIn {
+  0%  { opacity: 0; }
+  100% { opacity: 1; }
+}
