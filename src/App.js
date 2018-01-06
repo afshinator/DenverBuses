@@ -4,7 +4,7 @@ import "./App.css";
 import Map from "./Map";
 import RouteTable from "./RouteTable";
 
-const MAX_BUSES = 100;
+const MAX_BUSES = 125;   
 
 // Google Maps data
 const lat = 39.7401; // Denver, CO area
